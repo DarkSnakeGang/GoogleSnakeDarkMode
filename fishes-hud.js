@@ -21,23 +21,23 @@ window.snake.fishesHUD = function(settings = {}) {
       right: { x: 30 + 2 * buttonSize, y: 20 + buttonSize, pressed: false, character: settings.arrows ? '→' : 'D', },
     };
     document.body.addEventListener('keydown', evt => {
-      if(evt.keyCode === 87)
+      if(evt.keyCode === 87 || evt.keyCode === 38)
         buttons.up.pressed = true;
-      if(evt.keyCode === 65)
+      if(evt.keyCode === 65 || evt.keyCode === 37)
         buttons.left.pressed = true;
-      if(evt.keyCode === 83)
+      if(evt.keyCode === 83 || evt.keyCode === 40)
         buttons.down.pressed = true;
-      if(evt.keyCode === 68)
+      if(evt.keyCode === 68 || evt.keyCode === 39)
         buttons.right.pressed = true;
     });
     document.body.addEventListener('keyup', evt => {
-      if(evt.keyCode === 87)
+      if(evt.keyCode === 87 || evt.keyCode === 38)
         buttons.up.pressed = false;
-      if(evt.keyCode === 65)
+      if(evt.keyCode === 65 || evt.keyCode === 37)
         buttons.left.pressed = false;
-      if(evt.keyCode === 83)
+      if(evt.keyCode === 83 || evt.keyCode === 40)
         buttons.down.pressed = false;
-      if(evt.keyCode === 68)
+      if(evt.keyCode === 68 || evt.keyCode === 39)
         buttons.right.pressed = false;
     });
 
