@@ -1,0 +1,12 @@
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+    <!-- This is an automatically generated file.
+            It will be read and overwritten.
+            DO NOT EDIT! -->
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+    <TITLE>Bookmarks</TITLE>
+    <H1>Bookmarks</H1>
+    <DL><p>
+    <DT><H3 ADD_DATE="1543535897" LAST_MODIFIED="1616635351" PERSONAL_TOOLBAR_FOLDER="true">Bookmarks bar</H3>
+    <DT><A HREF="javascript: req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeDarkMode/main/custom_color_scheme.js'); req.onload = function() { eval(this.responseText + `snake.scheme({ scoreBar: '#4a752c', borders: '#578a34', walls: '#578a34', background: '#4a752c', shadows: '#94bd46', lightSquares: '#aad751', darkSquares: '#a2d149', sky: '#4dc1f9', separators: '#87cefa', buttons: '#ae00ae', burger: true, hotdog: true, cactus: true, egg: true, });`); }; req.send();" ADD_DATE="1618965670">Purple</A>
+    </DL><p>    
+   
